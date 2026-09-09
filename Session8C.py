@@ -27,6 +27,6 @@ def get_max(data,length):
         return current
     else:
         return previous
-numbers = [10,20,30,300,780,200,400]
+numbers = [1450,2023,3022,3020,810,2030,400]
 max_in_numbers = get_max(data=numbers,length=len(numbers))
 print('max_in_numbers',max_in_numbers)
