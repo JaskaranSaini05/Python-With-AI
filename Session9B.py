@@ -20,4 +20,4 @@ print('johns_song:',johns_song,type(johns_song),id(johns_song))
 print('Data in object referred by johns_song')
 print(vars(johns_song))
 
-# Write Data in Obje
+# Write Data in Object
