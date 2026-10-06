@@ -60,6 +60,7 @@ class Restaurant:
 # LHS: john is a reference variable,it will hold the hashcode of object in RAM
 # RHS: User() s creation of an object ,which automatically executes __init__(constructor)
 john = User()
+fionna = User()
 mc_donalds = Restaurant()
 
 print('john:',john,type(john),id(john))

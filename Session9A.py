@@ -41,3 +41,12 @@ class Cab:
 
 john_cabs = Cab()
 print('john_cabs:',john_cabs,type(john_cabs),id(john_cabs))
+
+john_cabs.vehicleNumber = 'PB10AL3344'
+john_cabs.color = 'black'
+john_cabs.model = 'Swift Dezire'
+john_cabs.type = 'Sedan'
+john_cabs.companybrand = 'Maruti'
+
+print('Data in Object now')
+print(vars(john_cabs))

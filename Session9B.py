@@ -21,3 +21,11 @@ print('Data in object referred by johns_song')
 print(vars(johns_song))
 
 # Write Data in Object
+# name,artists,album,duration
+johns_song.name = 'Laal Pari'
+johns_song.artists = 'Yo Yo Honey Singh,,Simar Kaur,Alfaaz'
+johns_song.album = 'Housefull 5'
+johns_song.duration = 4.16
+
+print('Data in Object now:')
+print(vars(johns_song))
