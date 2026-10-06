@@ -61,7 +61,45 @@ class Restaurant:
 # RHS: User() s creation of an object ,which automatically executes __init__(constructor)
 john = User()
 fionna = User()
+
+# Reference Copy Operation
+johnnie = john
 mc_donalds = Restaurant()
 
 print('john:',john,type(john),id(john))
+print('johnnie:',johnnie,type(johnnie),id(johnnie))
 print('mc_donalds:',mc_donalds,type(mc_donalds),id(mc_donalds))
+
+# Wrtie Data in Object
+john.name = 'John Watson'
+john.phone = '+91 99999 88888'
+john.email = 'John@example.com'
+john.address = 'redwood shares'
+john.gender = 'male'
+john.age = 30
+
+fionna.name = 'Fionna'
+fionna.phone = '+91 99342 11111'
+fionna.email = 'fionna@example.com'
+fionna.address = 'country homes'
+fionna.gender = 'female'
+fionna.age = 28
+
+# Update Operation
+johnnie.age = 45
+
+# Delete Operation
+del john.gender
+del johnnie.address
+
+print('data in john')
+print(vars(john))
+
+print('data in johnnie')
+print(vars(johnnie))
+
+print('data in fionna')
+print(vars(fionna))
+
+
+
