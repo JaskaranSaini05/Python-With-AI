@@ -13,7 +13,7 @@ Many Users are Placing Many Orders
 1 to many
 
 Object        Attributes i.e data assocaited with Object
-Restaurant - name,phone,email,address,rating,pricePerPerson
+Restaurant - name,phone,email,address,rating,pricePerPerson,menu
 Menu       - name,dishes,nummberofDishes
 Dish       - name,price,rating
 
@@ -32,7 +32,7 @@ Booking  User,cab,fare,date,time,source,destination
 class Dish:
     def __init__(self,name='NA',price=0,rating=0):
         self.name = name
-        self.name = price
+        self.price = price
         self.rating = rating
 
     def show(self):
@@ -47,3 +47,7 @@ dish3 = Dish(name='Dal Makhani',price = 150 , rating = 4)
 print('dish1',dish1)
 print('dish2',dish2)
 print('dish3',dish3)
+
+dish1.show()
+dish2.show()
+dish3.show()
