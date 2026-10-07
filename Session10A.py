@@ -10,7 +10,8 @@ class Menu:
         print("Name",self.name)
         print("Dishes",self.dishes)
         print("Number_of_Dishes",self.number_of_Dishes)
-
+"""
 menu = Menu()
 print('menu:',menu)
 menu.show()
+"""

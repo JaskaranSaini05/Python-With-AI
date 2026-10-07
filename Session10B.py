@@ -1,13 +1,13 @@
 class Restaurant:
     def __init__(self,name='NA',phone='NA',email='NA',
-    address='NA',rating=0,pricePerPerson-0,menu=None):
+    address='NA',rating=0,pricePerPerson=0,menu=None):
 
         self.name = name
         self.phone = phone
         self.email = email
         self.address = address
         self.rating = rating
-        self.pricePerPerson = price_per_person
+        self.pricePerPerson = pricePerPerson
         self.menu = menu
 
     def show(self):
@@ -17,6 +17,6 @@ class Restaurant:
         print('Email',self.email)
         print('Address',self.address)
         print('Rating',self.rating)
-        print('Price_per_person',self.price_per_person)
+        print('Price_per_person',self.pricePerPerson)
         print('Menu',self.menu)
         print("-------------------")

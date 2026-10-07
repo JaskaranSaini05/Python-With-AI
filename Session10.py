@@ -40,7 +40,7 @@ class Dish:
         print("Name",self.name)
         print("Price",self.price)
         print("Rating",self.rating)
-
+"""
 dish1 = Dish()
 dish2 = Dish(name='Paneer Tikka',price = 200 , rating = 4.5)
 dish3 = Dish(name='Dal Makhani',price = 150 , rating = 4)
@@ -51,3 +51,5 @@ print('dish3',dish3)
 dish1.show()
 dish2.show()
 dish3.show()
+
+"""
