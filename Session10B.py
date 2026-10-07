@@ -20,3 +20,4 @@ class Restaurant:
         print('Price_per_person',self.pricePerPerson)
         print('Menu',self.menu)
         print("-------------------")
+

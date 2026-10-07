@@ -29,3 +29,5 @@ rating=4.5,
 pricePerPerson=500,
 menu=menu
 )
+
+restaurant.show()
