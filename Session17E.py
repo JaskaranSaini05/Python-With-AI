@@ -1,6 +1,6 @@
 """
 name = input('enter your name:')
-person_to_meet = input('enter  person name you want to meet:')
+person_to_meet = input('enter person name you want to meet:')
 purpose = input('enter your purpose to meet:')
 
 print('Data:{},{},{}'.format(name,person_to_meet,purpose))
