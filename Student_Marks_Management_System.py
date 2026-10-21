@@ -12,6 +12,23 @@ Requirements
 """
 
 name = input("Enter your name:")
-math = float(input("Enter your math scores:"))
+mathh = float(input("Enter your math scores:"))
 history = float(input("Enter your history scores:"))
 science = float(input("Enter your science scores:"))
+
+def calculate_average(mathh,history,science):
+    total_marks = mathh + history + science
+    average = total_marks / 3
+    return total_marks,average
+    
+def get_grade(average):
+    if average > 80:
+        print("Grade A")
+    elif average > 60 and average < 80:
+        print("Grade B")
+    elif average > 50 and average < 60:
+        print("Grade C")
+    else:
+        print("Grade D")
+total_marks,average = calculate_average(mathh,history,science)
+grade=get_grade(average)
