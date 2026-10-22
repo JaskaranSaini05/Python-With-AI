@@ -12,7 +12,7 @@ Requirements
 """
 
 name = input("Enter your name:")
-mathh = float(input("Enter your math scores:"))
+mathh = float(input("Enter your Math scores:"))
 history = float(input("Enter your history scores:"))
 science = float(input("Enter your science scores:"))
 
