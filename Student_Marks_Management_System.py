@@ -14,7 +14,7 @@ Requirements
 name = input("Enter your name:")
 mathh = float(input("Enter your Math scores:"))
 history = float(input("Enter your History scores:"))
-science = float(input("Enter your science scores:"))
+science = float(input("Enter your Science scores:"))
 
 def calculate_average(mathh,history,science):
     total_marks = mathh + history + science
