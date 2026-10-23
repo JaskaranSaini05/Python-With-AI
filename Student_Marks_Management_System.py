@@ -9,6 +9,7 @@ Requirements
 5. Create a function called get_grade() to determine the grade.
 6. Display the student's name, total marks, average, and grade.
 7. Use if, elif, and else to determine the grade.
+
 """
 
 name = input("Enter your name:")
@@ -30,5 +31,6 @@ def get_grade(average):
         print("Grade C")
     else:
         print("Grade D")
-total_marks,average = calculate_average(mathh,history,science)
+total_marks,average = calc
+ulate_average(mathh,history,science)
 grade=get_grade(average)
